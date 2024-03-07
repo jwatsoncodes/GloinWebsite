@@ -1,0 +1,37 @@
+/* HomePage.css */
+
+/* Styles for the tour dates heading */
+.tour-dates-heading {
+    font-size: 5em;
+    color: #333;
+  }
+  
+  /* Styles for the tour dates list */
+  .tour-dates-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Styles for each tour date */
+  .tour-date {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the date */
+  .tour-date strong {
+    font-weight: bold;
+    color: #008080; /* Teal color for the date */
+  }
+  
+  /* Styles for the location */
+  .tour-date .location {
+    font-style: italic;
+    color: #666; /* Gray color for the location */
+  }
+  
+  /* Styles for the event */
+  .tour-date .event {
+    font-weight: bold;
+    color: #800000; /* Maroon color for the event */
+  }
+  
