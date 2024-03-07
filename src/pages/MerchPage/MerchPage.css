@@ -1,0 +1,50 @@
+/* MerchPage.css */
+
+/* Header styles */
+.merch-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Product list styles */
+  .product-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Individual product styles */
+  .product {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  /* Product image styles */
+  .product-image {
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  /* Product details styles */
+  .product-details {
+    flex-grow: 1;
+  }
+  
+  /* Product name styles */
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Product description styles */
+  .product-description {
+    margin-bottom: 10px;
+  }
+  
+  /* Product price styles */
+  .product-price {
+    font-weight: bold;
+  }
+  
