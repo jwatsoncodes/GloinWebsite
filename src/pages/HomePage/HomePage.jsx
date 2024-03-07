@@ -1,5 +1,6 @@
 // HomePage.jsx
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './HomePage.css'; // Import the CSS file
 
 // Define your HomePage component
@@ -17,9 +18,13 @@ function HomePage() {
         </li>
         {/* Add more tour dates as needed */}
       </ul>
+      
+      {/* Back button */}
+      <Link to="/" className="back-button">Back to Home</Link>
     </div>
   );
 }
 
 export default HomePage;
+
 

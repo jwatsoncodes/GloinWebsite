@@ -8,6 +8,8 @@ import App from './App.jsx';
 import Homepage from './pages/HomePage/HomePage.jsx'; // Import Homepage component
 import './index.css';
 import AboutPage from './pages/AboutPage/AboutPage.jsx'; // Import the AboutPage component
+import ContactPage from './pages/ContactPage/ContactPage.jsx'; // Import the AboutPage component
+import MerchPage from './pages/MerchPage/MerchPage.jsx'; // Import the AboutPage component
 
 
 
@@ -22,6 +24,8 @@ const router = (
       <Route path="/" element={<App />} />
       <Route path="/HomePage" element={<Homepage />} />
       <Route path="/AboutPage" element={<AboutPage />} /> {/* Add this line */}
+      <Route path="/ContactPage" element={<ContactPage />} /> {/* Add this line */}
+      <Route path="/MerchPage" element={<MerchPage />} /> {/* Add this line */}
     </Routes>
   </Router>
 );

@@ -20,13 +20,14 @@ function App() {
             About
           </button>
         </Link>
+        <Link to="/MerchPage">
+          <button>Merch</button>
+        </Link>
         <Link to="/ContactPage">
           <button>Contact</button>
         </Link>
       </div>
-      <p className="read-the-docs">
-        
-      </p>
+    
     </>
   );
 }
