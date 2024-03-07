@@ -5,8 +5,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 // Import components
 import App from './App.jsx';
-import Homepage from './pages/HomePage.jsx'; // Import Homepage component
+import Homepage from './pages/HomePage/HomePage.jsx'; // Import Homepage component
 import './index.css';
+import AboutPage from './pages/AboutPage/AboutPage.jsx'; // Import the AboutPage component
+
+
 
 
 
@@ -18,9 +21,11 @@ const router = (
       {/* Define routes */}
       <Route path="/" element={<App />} />
       <Route path="/HomePage" element={<Homepage />} />
+      <Route path="/AboutPage" element={<AboutPage />} /> {/* Add this line */}
     </Routes>
   </Router>
 );
+
 
 // This code passes a reference to an element in index.html to the ReactDOM.createRoot() method. 
 // This creates the root element where your entire React application is rendered. If you open
