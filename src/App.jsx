@@ -5,13 +5,12 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 
 
+
 function App() {
   return (
     <>
     
-      <div>
-          <img src="https://dominionated.ca/wp-content/uploads/2022/10/gloin-we-found-this.jpeg" className="logo" alt="Your Image" />
-      </div>
+      
       <h1>GLOIN</h1>
       <div className="card">
         {/* Add Link to navigate to HomePage */}
@@ -29,6 +28,9 @@ function App() {
         <Link to="/ContactPage">
           <button>Contact</button>
         </Link>
+        <div>
+          <img src="https://dominionated.ca/wp-content/uploads/2022/10/gloin-we-found-this.jpeg" className="logo" alt="Your Image" />
+      </div>
           {/* Rendering the Footer component */}
         <Footer />
       
