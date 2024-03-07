@@ -15,17 +15,6 @@ Gloin - Band website
 
 A website for Gloin to have all of their touring information, merchandise, booking information and contact outside of their record label.
 
-- [Description](#description)
-- [Features](#features)
-- [Installation](#installation)
-- [How to Use](#how-to-use)
-- [Technologies Used](#technologies-used)
-- [Credits](#credits)
-- [License](#license)
-- [Deployment](#deployment)
-- [Questions](#questions)
-- [Screenshot](#screenshot)
-
 ## Features
 
 *   **Landing Page**
