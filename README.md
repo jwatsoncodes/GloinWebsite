@@ -48,6 +48,6 @@ cont...
 
 ## Questions
 
-If you have any questions or feedback, feel free to contact us at [John](mailto:jwatsoncodes@gmail.com)
+If you have any questions or feedback, feel free to contact me at (mailto:jwatsoncodes@gmail.com)
 
 
