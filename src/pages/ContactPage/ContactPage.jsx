@@ -8,6 +8,21 @@ function ContactPage() {
   return (
     <div>
 
+<Link to="/HomePage">
+          <button>Tour</button>
+        </Link>
+        <Link to="/AboutPage">
+          <button>
+            About
+          </button>
+        </Link>
+        <Link to="/MerchPage">
+          <button>Merch</button>
+        </Link>
+        <Link to="/ContactPage">
+          <button>Contact</button>
+        </Link>
+
       {/* Image */}
       <img src="https://images.squarespace-cdn.com/content/v1/5b326c5bb40b9df04392b913/d2544fd0-1c7a-473a-ad29-801834dc25f0/Gloin+1+-+Credit+1upcloud+%28Alex+Carre%29.jpg?format=2500w" alt="Gloinband" className="about-image" />
       {/* MOTHLAND section */}

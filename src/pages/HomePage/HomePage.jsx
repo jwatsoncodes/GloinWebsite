@@ -7,6 +7,23 @@ import './HomePage.css'; // Import the CSS file
 function HomePage() {
   return (
     <div>
+
+<Link to="/HomePage">
+          <button>Tour</button>
+        </Link>
+        <Link to="/AboutPage">
+          <button>
+            About
+          </button>
+        </Link>
+        <Link to="/MerchPage">
+          <button>Merch</button>
+        </Link>
+        <Link to="/ContactPage">
+          <button>Contact</button>
+        </Link>
+
+        
       <h2 className="tour-dates-heading">UPCOMING DATES</h2>
       {/* List of tour dates */}
       <ul className="tour-dates-list">

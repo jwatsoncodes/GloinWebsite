@@ -9,9 +9,26 @@ import './MerchPage.css'; // Import the CSS file
 // Define your MerchPage component
 function MerchPage() {
   return (
+    
     <div>
       {/* Header */}
       <h2 className="merch-heading"></h2>
+
+      <Link to="/HomePage">
+          <button>Tour</button>
+        </Link>
+        <Link to="/AboutPage">
+          <button>
+            About
+          </button>
+        </Link>
+        <Link to="/MerchPage">
+          <button>Merch</button>
+        </Link>
+        <Link to="/ContactPage">
+          <button>Contact</button>
+        </Link>
+
 
       {/* List of products */}
       <ul className="product-list">
