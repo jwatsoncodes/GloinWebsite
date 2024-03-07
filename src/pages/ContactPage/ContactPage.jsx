@@ -9,7 +9,7 @@ function ContactPage() {
     <div>
 
       {/* Image */}
-      <img src="https://images.squarespace-cdn.com/content/v1/5b326c5bb40b9df04392b913/d2544fd0-1c7a-473a-ad29-801834dc25f0/Gloin+1+-+Credit+1upcloud+%28Alex+Carre%29.jpg?format=2500w" alt="Gloinband" className="about-image" />
+      {/* <img src="https://images.squarespace-cdn.com/content/v1/5b326c5bb40b9df04392b913/d2544fd0-1c7a-473a-ad29-801834dc25f0/Gloin+1+-+Credit+1upcloud+%28Alex+Carre%29.jpg?format=2500w" alt="Gloinband" className="about-image" /> */}
       {/* MOTHLAND section */}
       <p className="mothland-section">
         <strong>MOTHLAND:</strong> <a href="https://www.mothland.com/gloin" target="_blank">www.mothland.com/gloin</a>
@@ -23,7 +23,7 @@ function ContactPage() {
       </p>
 
       {/* Back button */}
-      <Link to="/" className="back-button">Back to Home</Link>
+      <Link to="/" className="back-button">Home</Link>
     </div>
   );
 }

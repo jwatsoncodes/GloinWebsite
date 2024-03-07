@@ -6,10 +6,12 @@ import './MerchPage.css'; // Import the CSS file
 
 
 
+
 // Define your MerchPage component
 function MerchPage() {
   return (
     <div>
+        
       {/* Header */}
       <h2 className="merch-heading"></h2>
 
@@ -29,9 +31,10 @@ Includes unlimited streaming of We Found This via the free Bandcamp app, plus hi
         </li>
         {/* Add more products as needed */}
       </ul>
+      
 
       {/* Back button */}
-      <Link to="/" className="back-button">Back to Home</Link>
+      <Link to="/" className="back-button">Home</Link>
     </div>
    
     

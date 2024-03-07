@@ -25,7 +25,7 @@ function AboutPage() {
       </p>
 
       {/* Back button */}
-      <Link to="/" className="back-button">Back to Home</Link>
+      <Link to="/" className="back-button">Home</Link>
     </div>
   );
 }

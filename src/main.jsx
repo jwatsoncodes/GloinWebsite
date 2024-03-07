@@ -10,6 +10,7 @@ import './index.css';
 import AboutPage from './pages/AboutPage/AboutPage.jsx'; // Import the AboutPage component
 import ContactPage from './pages/ContactPage/ContactPage.jsx'; // Import the AboutPage component
 import MerchPage from './pages/MerchPage/MerchPage.jsx'; // Import the AboutPage component
+import NavBar from './components/Navbar/Navbar.jsx'
 
 
 
@@ -19,6 +20,7 @@ import MerchPage from './pages/MerchPage/MerchPage.jsx'; // Import the AboutPage
 
 const router = (
   <Router>
+    <NavBar /> {/* Include the Navbar component */}
     <Routes>
       {/* Define routes */}
       <Route path="/" element={<App />} />

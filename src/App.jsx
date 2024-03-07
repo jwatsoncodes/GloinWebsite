@@ -5,17 +5,18 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 
 
+
 function App() {
   return (
     <>
-    
+    {/* <NavBar /> Include the NavBar component */}
       <div>
           <img src="https://dominionated.ca/wp-content/uploads/2022/10/gloin-we-found-this.jpeg" className="logo" alt="Your Image" />
       </div>
       <h1>GLOIN</h1>
       <div className="card">
         {/* Add Link to navigate to HomePage */}
-        <Link to="/HomePage">
+        {/* <Link to="/HomePage">
           <button>Tour</button>
         </Link>
         <Link to="/AboutPage">
@@ -28,7 +29,7 @@ function App() {
         </Link>
         <Link to="/ContactPage">
           <button>Contact</button>
-        </Link>
+        </Link> */}
           {/* Rendering the Footer component */}
         <Footer />
       
